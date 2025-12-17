@@ -1,15 +1,6 @@
-// Portfolio JavaScript - Gopichand Dandimeni © 2025
+// Portfolio JavaScript - Samsani Hema Sri Latha © 2025
 
-// EmailJS Configuration
-const EMAILJS_CONFIG = {
-  publicKey: 'tQrf5kDN2167TgvY-',
-  serviceId: 'service_b3wheld',
-  contactTemplateId: 'template_9e7vhot',
-  visitorTemplateId: 'template_x86m9hr'
-};
 
-// Initialize EmailJS
-emailjs.init(EMAILJS_CONFIG.publicKey);
 
 // Global variables for visitor data
 let visitorData = {
@@ -568,8 +559,7 @@ $(document).ready(function() {
           cookies_enabled: visitorData.storage?.cookiesEnabled || 'Unknown'
         };
 
-        emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.visitorTemplateId, emailData)
-          .catch(error => console.log('Email notification failed:', error));
+
 
         sessionStorage.setItem('visited', 'true');
         sessionStorage.setItem('visitorName', name);
@@ -630,7 +620,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Student", " cyber forensics leaner", "Explorer", "debugger"],
+        strings: ["Student", "Front-End Developer", "Problem Solver", "Tech Enthusiast"],
         typeSpeed: 150,
         backSpeed: 100,
         backDelay: 1000,
@@ -642,7 +632,7 @@ $(document).ready(function(){
     });
 
     var typed2 = new Typed(".typing-2", {
-        strings: ["Student", " cyber forensics leaner", "Explorer", "debugger"],
+        strings: ["Student", "Front-End Developer", "Problem Solver", "Tech Enthusiast"],
         typeSpeed: 150,
         backSpeed: 100,
         backDelay: 1000,
@@ -720,29 +710,17 @@ $(document).ready(function(){
         btn.html('<i class="fas fa-spinner fa-spin"></i> Sending...');
         btn.prop('disabled', true);
         
-        emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.contactTemplateId, {
-          name: name,
-          email: email,
-          subject: subject,
-          message: message
-        })
-        .then(() => {
-          btn.html('<i class="fas fa-check"></i> Message Sent!');
+        // Simple form submission without EmailJS
+        setTimeout(() => {
+          btn.html('<i class="fas fa-check"></i> Message Received!');
           btn.css('background', 'linear-gradient(135deg, #28a745, #20c997)');
           $('#contactForm')[0].reset();
-        })
-        .catch(error => {
-          console.error('Error:', error);
-          btn.html('<i class="fas fa-times"></i> Failed to Send');
-          btn.css('background', 'linear-gradient(135deg, #dc3545, #c82333)');
-        })
-        .finally(() => {
           btn.prop('disabled', false);
           setTimeout(() => {
             btn.html(originalText);
             btn.css('background', 'linear-gradient(135deg, crimson, #ff6b6b)');
           }, 3000);
-        });
+        }, 1000);
     });
 
     $('.row[data-tooltip="Click to copy"]').on('click', function() {
@@ -807,41 +785,7 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-// Modern News Card Functions
-function toggleNewsPopup() {
-    const card = document.getElementById('newsCard');
-    card.classList.toggle('show');
-}
 
-function closeNewsPopup() {
-    const card = document.getElementById('newsCard');
-    card.classList.remove('show');
-}
-
-function showNewsOnHome() {
-    const card = document.getElementById('newsCard');
-    if (card) {
-        setTimeout(() => {
-            card.classList.add('show');
-        }, 2000);
-    }
-}
-
-$(window).scroll(function() {
-    const homeSection = $('#home');
-    const homeTop = homeSection.offset().top;
-    const homeBottom = homeTop + homeSection.outerHeight();
-    const scrollTop = $(window).scrollTop();
-    const windowHeight = $(window).height();
-    
-    if (scrollTop < homeBottom && scrollTop + windowHeight > homeTop) {
-        showNewsOnHome();
-    } else {
-        closeNewsPopup();
-    }
-});
-
-showNewsOnHome();
 
 // Name validation functions
 function showNameError(message = 'Please enter a valid real name') {
