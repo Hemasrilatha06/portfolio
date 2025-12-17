@@ -5,7 +5,7 @@ color 0A
 echo.
 echo ========================================
 echo    PORTFOLIO WEBSITE SERVER
-echo    Gopichand Dandimeni - DGC
+echo    Samsani Hema Sri Latha - HSL
 echo ========================================
 echo.
 

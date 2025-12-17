@@ -17,8 +17,8 @@ If you discover unauthorized copies or forks of this repository:
    - Include links to both repositories
 
 3. **Contact Repository Owner**
-   - **GitHub**: [@Gooichand](https://github.com/Gooichand)
-   - **Email**: Via GitHub profile contact
+   - **GitHub**: [@Hemasrilatha06](https://github.com/Hemasrilatha06)
+   - **Email**: [hemasl182006@gmail.com](mailto:hemasl182006@gmail.com)
 
 ### Automated Protection Measures
 

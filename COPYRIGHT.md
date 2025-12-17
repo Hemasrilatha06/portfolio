@@ -2,7 +2,7 @@
 
 ## Portfolio Copyright Protection
 
-**© 2025 Gopichand Dandimeni. All Rights Reserved.**
+**© 2025 Samsani Hema Sri Latha. All Rights Reserved.**
 
 ### Ownership Declaration
 This portfolio website and all its contents, including but not limited to:
@@ -12,7 +12,7 @@ This portfolio website and all its contents, including but not limited to:
 - Text content and documentation
 - Interactive features and animations
 
-Are the exclusive intellectual property of **Gopichand Dandimeni**.
+Are the exclusive intellectual property of **Samsani Hema Sri Latha**.
 
 ### Usage Restrictions
 - **No unauthorized copying** or redistribution
@@ -29,9 +29,9 @@ This work is protected under:
 
 ### Contact for Permissions
 For licensing inquiries or permission requests:
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: https://github.com/Gooichand
+- **Email**: hemasl182006@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/hema-sri-latha-aa9462345
+- **GitHub**: https://github.com/Hemasrilatha06
 
 ### Violation Reporting
 Unauthorized use will be reported to:

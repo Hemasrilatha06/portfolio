@@ -89,8 +89,8 @@ This portfolio includes copyright protection features:
 - Text selection disabled
 - Code obfuscation measures
 
-**© 2025 Gopichand Dandimeni. All Rights Reserved.**
+**© 2025 Samsani Hema Sri Latha. All Rights Reserved.**
 
 ---
 
-**Built with ❤️ by Gopichand Dandimeni**
+**Built with ❤️ by Samsani Hema Sri Latha**

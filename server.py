@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple HTTP Server for Portfolio Website
+Simple HTTP Server for Portfolio Website - Samsani Hema Sri Latha
 Serves static files and handles basic routing
 """
 

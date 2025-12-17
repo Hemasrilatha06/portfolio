@@ -2,7 +2,7 @@
 
 ## Copyright Infringement Notice
 
-**© 2025 Gopichand Dandimeni. All Rights Reserved.**
+**© 2025 Samsani Hema Sri Latha. All Rights Reserved.**
 
 ### Repository Protection Notice
 
@@ -32,7 +32,8 @@ If you find unauthorized copies of this repository:
 
 ### Contact for Licensing
 For legitimate use requests:
-- **GitHub**: [@Gooichand](https://github.com/Gooichand)
-- **Portfolio**: [gooichand.github.io](https://gooichand.github.io)
+- **GitHub**: [@Hemasrilatha06](https://github.com/Hemasrilatha06)
+- **Email**: hemasl182006@gmail.com
+- **Portfolio**: [hemasrilatha06.github.io/portfolio](https://hemasrilatha06.github.io/portfolio)
 
 **Warning**: This notice serves as legal documentation for copyright protection.
